@@ -1,0 +1,46 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: yellow;
+  color: #236ac1;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 > span {
+  font-size: 16px;
+  margin: 0 30px;
+}
+
+hr {
+  margin: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+section > img {
+  width: 80%;
+  text-align: center;
+  margin: 15px;
+}
+
+p > button,
+h3 > button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: rgb(35, 106, 193);
+  color: yellow;
+}
+
+h3 {
+  background-color: #236ac1;
+  color: yellow;
+}
